@@ -1,0 +1,46 @@
+body.dark {
+  background-color: var(--cor-4);
+  transition: 0.7s;
+}
+
+body.dark li {
+  color: var(--cor-1);
+}
+
+body.dark .text h2 {
+  color: var(--cor-1);
+}
+
+body.dark .text p {
+  color: var(--cor-1);
+}
+
+body.dark .footer p {
+  color: var(--cor-1);
+}
+
+body.dark .footer a {
+  color: var(--cor-1);
+}
+
+body.dark .footer a:hover {
+  color: var(--cor-3);
+}
+
+body.dark .logo img {
+  filter: invert(100%);
+}
+
+body.dark .lock {
+  filter: invert(100%);
+}
+
+input {
+  visibility: hidden;
+}
+
+.btn {
+  position: relative;
+  cursor: pointer;
+  right: 50px;
+}
